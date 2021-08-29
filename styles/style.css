@@ -6,7 +6,9 @@ h2{
 p, li{
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
-    word-break: break-all;
+    word-break: break-word;
+    text-align: justify;
+
 }
 h3{
     font-family: 'Roboto', sans-serif;
@@ -22,6 +24,10 @@ li{
 }
 
 /* Div que vai englobar todo o conteúdo */
+.container{
+    display: flex;
+    flex-direction: column;
+}
 .content{
     color: #19304F;
     display: flex;
@@ -34,6 +40,7 @@ li{
     margin: 30px;
     width: 395px;
     height: 810px;
+    padding-left: 20px;
     background-color: #FFFFFF;
 }
 .header > img{
@@ -64,11 +71,13 @@ li{
 .header > img{
     border-radius: 100%;
 }
+
 .footer{
-    width: 595px;
-    margin: auto;
-    margin-top: -38px;
+    width: 400px;
+    margin: 0 auto; 
+    margin-top: -40px;
     text-align: center;
+    
 }
 .footer-img{
     width: 3%
@@ -177,11 +186,11 @@ li{
     }
 
     .footer{
-        margin-top: 620px;
+        margin-top: 585px;
         height: 30px;
-        bottom: 0;
-        left: 0;      
+        bottom: 0;   
+        margin-left: 120px;
         color: white;
-        width: 460px;
+        width: 300px;
     }
 }
