@@ -112,7 +112,10 @@ li{
 
 
 @media (max-width: 610px){
-
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
     .content {
         width: 470px;
         height: 750px;
@@ -174,7 +177,10 @@ li{
     }
 
     .footer{
-        margin-top: 96vh;
+        margin-top: 114%;
+        height: 30px;
+        bottom: 0;
+        left: 0;      
         color: white;
         width: 460px;
     }
